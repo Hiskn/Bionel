@@ -1,42 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Titmi - Your Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Welcome to Titmi</h1>
-            <p>Your personal website for all things awesome!</p>
-        </div>
-    </header>
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <section class="main-content">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>This is a simple, stylish webpage for you to showcase your ideas. It's fast, simple, and customizable!</p>
-        </div>
-    </section>
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <section class="features">
-        <div class="container">
-            <h2>Features</h2>
-            <ul>
-                <li>Fast and responsive design</li>
-                <li>Customizable layout</li>
-                <li>Easy to edit and maintain</li>
-            </ul>
-        </div>
-    </section>
+/* Container to center align content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Titmi. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+/* Header section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main content section */
+.main-content {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+}
+
+/* Features section */
+.features {
+    background-color: #e2e2e2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Footer section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
